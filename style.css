@@ -1,0 +1,105 @@
+/* custom properties */
+:root {
+  --clr-primary-200: hsl(31, 77%, 52%);
+  --clr-primary-400: hsl(184, 100%, 22%);
+  --clr-primary-700: hsl(179, 100%, 13%);
+
+  --clr-neutral-100: hsla(0, 0%, 100%, 0.75);
+  --clr-neutral-200: hsl(0, 0%, 95%);
+
+  --ff-content: 'Lexend Deca', sans-serif;
+  --ff-heading: 'Big Shoulders Display', cursive;
+}
+
+/* default font size */
+html {
+  font-size: 15px;
+}
+
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+  line-height: 1.2;
+  font-family: var(--ff-heading);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+dl,
+dd,
+figure {
+  margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button,
+input[type="submit"],
+.btn {
+  cursor: pointer;
+}
+
+ul[class] {
+  list-style: none;
+  /* Caution: the following can cause specificity issues */
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  line-height: 1.5;
+}
+
+
+.flow-content > * + * {
+  margin-top: var(--flow-spacer, 1rem);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+  /**
+  * The designs were created to the following widths:
+  *
+  * - Mobile: 375px
+  * - Desktop: 1440px 
+  **/
+@media screen and (min-width: 375px) {
+  /* desktop */
+}
