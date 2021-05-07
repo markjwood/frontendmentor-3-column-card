@@ -132,6 +132,11 @@ body {
   border-radius: 100em;
 }
 
+.btn:hover,
+.btn:focus {
+  opacity: .9;
+}
+
 .attribution {
   color: black;
   width: var(--container-width);
