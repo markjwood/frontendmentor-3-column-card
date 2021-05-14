@@ -86,6 +86,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .container {
@@ -145,10 +146,6 @@ body {
 /* media queries */
 
   @media (min-width: 768px) {
-    body {
-      justify-content: center;
-    }
-    
     .container {
       flex-direction: row;
       --container-width: 56.125rem;
